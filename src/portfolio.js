@@ -4,13 +4,30 @@
 // Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
+
+// Summary And Greeting Section
+
+const illustration = {
+  animated: true // Set to false to use static SVG
+};
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Nikhil Lohiya",
   title: "Hi all, I'm Nikhil",
     subTitle: emoji("A passionate Business Intelligence Engineer 🚀 with 4+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "asxc",
+  displayGreeting: true
+
 };
 
 // Your Social Media Link
@@ -94,17 +111,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
       },
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Your education background
 
 const educationInfo = {
-  viewEducation: true, // Set it to true to see education section
+  display: true, // Set it to true to see education section
   schools: [
     {
       schoolName: "Stevens Institute of Technology",
-          logo: require("./assets/images/stevensLogo.png"),
+      logo: require("./assets/images/stevensLogo.png"),
       subHeader: "Master of Science in Business Intelligence & Analytics",
       duration: "September 2017 - December 2018",
       desc: "Highlights",
@@ -151,19 +169,20 @@ const techStack = {
           Stack: "ETL & Data pipelining ",
           progressPercentage: "80%"
       }
-  ]
+  ],
+  displayCodersrank: false 
 };
 
 
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
       {
-          role: "Analytics Associate",
+      role: "Analytics Associate",
       company: "USEReady",
-          companylogo: require("./assets/images/UsereadyLogo.png"),
+      companylogo: require("./assets/images/UsereadyLogo.png"),
       date: "February 2019 – Present",
       desc: "Highlights:",
       descBullets: [
@@ -229,9 +248,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "nikilohiya", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true  or false to show Contact profile using Github, defaults to false
+  showGithubProfile :"true", // Set true  or false to show Contact profile using Github, defaults to false
+  display: false
 };
 
 
@@ -243,15 +261,23 @@ const bigProjects = {
   projects: [
     {
           image: require("./assets/images/Finfincky.PNG"),
-          link: "https://nlohiya.shinyapps.io/Fin-Finicky/"
+          projectName: "Saayahealth",
+          projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          footerLink: [
+            {
+              name: "Visit Website",
+              url: "https://nlohiya.shinyapps.io/Fin-Finicky/"
+            }
+            //  you can add extra buttons here.
+          ]
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-
   title: emoji("Achievements And Certifications 🏆"),
   subtitle: "Achievements, Certifications and some other cool stuff that I have done !",
 
@@ -261,7 +287,12 @@ const achievementSection = {
           title: "Alteryx Core",
           subtitle: "Alteryx Designer: Core design certification, March 2020.",
           image: require("./assets/images/AlteeryxcertificateLogo.png"),
-          footerLink: [{ name: "View Certificate", url: "https://community.alteryx.com/t5/user/viewprofilepage/user-id/88164" }]
+          footerLink: [
+            {
+              name: "View Certificate",
+              url: "https://community.alteryx.com/t5/user/viewprofilepage/user-id/88164"
+            }
+          ]
       },
       {
       title: "CFA Level 2 Candidate",
@@ -287,22 +318,25 @@ const achievementSection = {
 // Decommisioned as of 2020-11-29
 
 const blogSection = {
-
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -333,6 +367,16 @@ const podcastSection = {
 };
 
 
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
+};
+
+
 //Contact Information
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -345,9 +389,29 @@ const contactInfo = {
 // Decommisioned as of 2020-11-29
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-
+  userName : "twitter", //Replace "twitter" with your twitter username without @
+  display: false 
 };
 
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+
+export { illustration,
+  greeting,
+  socialMediaLinks,
+  splashScreen,
+  skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails,
+  isHireable,
+  resumeSection
+};
