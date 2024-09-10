@@ -121,7 +121,7 @@ const educationInfo = {
   display: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Stevens Institute of Technology",
+      schoolName: "Stevens  Institute of Technology",
       logo: require("./assets/images/stevensLogo.png"),
       subHeader: "Master of Science in Business Intelligence & Analytics",
       duration: "September 2017 - December 2018",
