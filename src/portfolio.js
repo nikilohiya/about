@@ -24,7 +24,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Nikhil Lohiya",
   title: "Hi all, I'm Nikhil",
-    subTitle: emoji("A passionate Business Intelligence Engineer 🚀 with 4+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."),
+    subTitle: emoji("A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."),
   resumeLink: "asxc",
   displayGreeting: true
 
@@ -381,7 +381,6 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1-973-960-0336",
   email_address: "nikilohiya@gmail.com"
 };
 
