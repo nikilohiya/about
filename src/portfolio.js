@@ -24,7 +24,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Nikhil Lohiya",
   title: "Hi all, I'm Nikhil",
-    subTitle: emoji("A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."),
+  subTitle: emoji("A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."),
   resumeLink: "asxc",
   displayGreeting: true
 
@@ -34,13 +34,13 @@ const greeting = {
 
 const socialMediaLinks = {
 
-//  github: "https://github.com/saadpasta",
-    linkedin: "https://www.linkedin.com/in/nikilohiya/",
-    gmail: "nikilohiya@gmail.com",
-//  gitlab: "https://gitlab.com/saadpasta",
-//  facebook: "https://www.facebook.com/saad.pasta7",
-//  medium: "https://medium.com/@saadpasta",
-//  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  //  github: "https://github.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/nikilohiya/",
+  gmail: "nikilohiya@gmail.com",
+  //  gitlab: "https://gitlab.com/saadpasta",
+  //  facebook: "https://www.facebook.com/saad.pasta7",
+  //  medium: "https://medium.com/@saadpasta",
+  //  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -51,66 +51,107 @@ const skillsSection = {
   subTitle: "Obssesive 'Problem Solver' who is consistently learning new tools to solve them!",
   skills: [
     emoji("⚡ Help Business' succeed with their Data! "),
-    emoji("⚡ Develop BI/AI based solutions to Drive better Business Outcomes."),
-    emoji("⚡  ----------------Customer Enablement------------")
+    emoji("⚡ Develop BI/AI based solutions to Drive better Business Outcomes.")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-      {
-          skillName: "Tableau",
-          fontAwesomeClassname: "fab fa-aws"
-      },
-      {
-          skillName: "Power BI",
-          fontAwesomeClassname: "fab fa-aws"
-      },
-      {
-          skillName: "Sisense",
-          fontAwesomeClassname: "fab fa-aws"
-      },
-      {
-          skillName: "Qlik Sense",
-          fontAwesomeClassname: "fab fa-aws"
-      },
-      {
-          skillName: "python",
-          fontAwesomeClassname: "fab fa-python"
-      },
-      {
-          skillName: "R",
-          fontAwesomeClassname: "fab fa-r-project"
-      },
-      {
-          skillName: "Alteryx",
-          fontAwesomeClassname: "fab fa-python"
-      },
-      {
-          skillName: "Oracle-database",
-          fontAwesomeClassname: "fas fa-database"
-      },
-      {
+    // AI Tools
+
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fas fa-cubes"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    // Machine Learning
+    {
+      skillName: "Sagemaker",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Bedrock",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Amazon Q",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Langchain",
+      fontAwesomeClassname: "fas fa-link"
+    },
+    {
+      skillName: "Google AI Studio",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    // Databases & Engineering
+    {
+      skillName: "Oracle-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-      },
-      {
-          skillName: "Bigquery",
-          fontAwesomeClassname: "fab fa-aws"
-      },
-      {
-          skillName: "Redshift",
-          fontAwesomeClassname: "fab fa-aws"
-      },
-      {
-          skillName: "snowflake",
-          fontAwesomeClassname: "fas fa-snowflake"
-      },
-      {
-      skillName: "aws",
+    },
+    {
+      skillName: "Bigquery",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Redshift",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Athena",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS Glue",
       fontAwesomeClassname: "fab fa-aws"
-      },
+    },
+    {
+      skillName: "Alteryx",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Airflow",
+      fontAwesomeClassname: "fas fa-fan"
+    },
+
+    // BI Tools
+    {
+      skillName: "Power BI",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "Sisense",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "QuickSight",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,11 +167,11 @@ const educationInfo = {
       subHeader: "Master of Science in Business Intelligence & Analytics",
       duration: "September 2017 - December 2018",
       desc: "Highlights",
-          descBullets: [
-              "GPA: 3.89/4",
-              "Treasurer of Business Intelligence Club",
-              "Received scholarship for $10k for standing top 10% in my batch",
-              "Courses taken: Web Mining, Multivariate Analysis, Data Warehousing & BI ...."
+      descBullets: [
+        "GPA: 3.89/4",
+        "Treasurer of Business Intelligence Club",
+        "Received scholarship for $10k for standing top 10% in my batch",
+        "Courses taken: Web Mining, Multivariate Analysis, Data Warehousing & BI ...."
       ]
     },
     {
@@ -139,10 +180,10 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Electrical Engineering",
       duration: "July 2012 - April 2016",
       desc: "Highlights",
-        descBullets: [
-            "GPA: 3.62/4",
-            "Mentored over 700 Students as 'Chief Mentor' in Student Mentorship Program(2015-16)",
-            "Founder & 1st Chairman of Electrical Engineering Society, MNIT Jaipur(2015-16)"
+      descBullets: [
+        "GPA: 3.62/4",
+        "Mentored over 700 Students as 'Chief Mentor' in Student Mentorship Program(2015-16)",
+        "Founder & 1st Chairman of Electrical Engineering Society, MNIT Jaipur(2015-16)"
       ]
     }
   ]
@@ -164,13 +205,13 @@ const techStack = {
     {
       Stack: "Scripting",
       progressPercentage: "70%"
-      },
-      {
-          Stack: "ETL & Data pipelining ",
-          progressPercentage: "80%"
-      }
+    },
+    {
+      Stack: "ETL & Data pipelining ",
+      progressPercentage: "80%"
+    },
   ],
-  displayCodersrank: false 
+  displayCodersrank: false
 };
 
 
@@ -179,7 +220,7 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-      {
+    {
       role: "Analytics Associate",
       company: "USEReady",
       companylogo: require("./assets/images/UsereadyLogo.png"),
@@ -187,60 +228,60 @@ const workExperiences = {
       desc: "Highlights:",
       descBullets: [
         "Gathered detailed requirements, defined KPIs, developed and implemented solutions for over 12 projects in an Agile setup for 3 clients.",
-          "Created and automated over 30 ETL Process’ & 20 Dashboards using Bigquery/Redshift/Oracle/Tableau, Python/Alteryx and reported in Tableau / Power BI supporting 4 multimillion-dollar product launches.",
-          "Created 2 Tableau Dashboards ingesting more than 50 million rows, and optimized performance from 90 seconds to under 5 seconds for 4000 concurrent users.(Tabjolt / Tabmon)",
-          "Created a “Portfolio Analyzer Dashboard” using Tableau-Python API, with dynamic optimization in Python based on user selected parameters on a Tableau UI.",
-          "Created a Python data stream to interact with databases and automating using python schedular to support 2 POCs."
+        "Created and automated over 30 ETL Process’ & 20 Dashboards using Bigquery/Redshift/Oracle/Tableau, Python/Alteryx and reported in Tableau / Power BI supporting 4 multimillion-dollar product launches.",
+        "Created 2 Tableau Dashboards ingesting more than 50 million rows, and optimized performance from 90 seconds to under 5 seconds for 4000 concurrent users.(Tabjolt / Tabmon)",
+        "Created a “Portfolio Analyzer Dashboard” using Tableau-Python API, with dynamic optimization in Python based on user selected parameters on a Tableau UI.",
+        "Created a Python data stream to interact with databases and automating using python schedular to support 2 POCs."
       ]
-      },
-      {
-          role: "Graduate Intern",
-          company: "Dept of Finance",
-          companylogo: require("./assets/images/dofLogo.png"),
-          date: "June 2018 – December 2018",
-          desc: "Highlights:",
-          descBullets: [
-              "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
-              "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
-              "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
-              "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos.",
-          ]
-      },
+    },
+    {
+      role: "Graduate Intern",
+      company: "Dept of Finance",
+      companylogo: require("./assets/images/dofLogo.png"),
+      date: "June 2018 – December 2018",
+      desc: "Highlights:",
+      descBullets: [
+        "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
+        "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
+        "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
+        "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos.",
+      ]
+    },
     {
       role: "Associate Applications Developer",
       company: "Oracle Corp",
       companylogo: require("./assets/images/oracleLogo.png"),
       date: "October 2016 – July 2017",
-        desc: "Highlights:",
-        descBullets: [
-            "Improved performance in Batch Data Processing Utility by reducing I/O time with Database by 4%.",
-            "Resolved database performance and deadlock issues for 3 clients in the Oracle Revenue Management and Billing batch data processing cycles with 5 million rows (appx)."
-        ]
+      desc: "Highlights:",
+      descBullets: [
+        "Improved performance in Batch Data Processing Utility by reducing I/O time with Database by 4%.",
+        "Resolved database performance and deadlock issues for 3 clients in the Oracle Revenue Management and Billing batch data processing cycles with 5 million rows (appx)."
+      ]
     },
     {
       role: "Data Analyst",
       company: "A S Services",
       companylogo: require("./assets/images/asservicesLogo.png"),
       date: "April 2016 – September 2016",
-        desc: "Highlights:",
-        descBullets: [
-            "Create a database and digitize the existing client salary data from ledgers.",
-            "Create monthly reports for the clients to manage the expenditures and create projections for the next month.",
-            "Perform monetary impact analysis for Labor Laws’ compliance and identify sources of cost reduction for the clients.",
-            "While onboarding new clients, check for past compliance violations and chart the frequency against a benchmark model in the same industry.",
-            "Generate reports and create dashboards based on the findings.",
-          ]
-      },
-      {
-          role: "CEO & Cofounder",
-          company: "ArtStreak",
-          companylogo: require("./assets/images/artstreakLogo.png"),
-          date: "February 2014 – January 2015",
-          desc: "Highlights:",
-          descBullets: [
-              "Formerly known as i-deal: Artstreak",
-          ]
-      }
+      desc: "Highlights:",
+      descBullets: [
+        "Create a database and digitize the existing client salary data from ledgers.",
+        "Create monthly reports for the clients to manage the expenditures and create projections for the next month.",
+        "Perform monetary impact analysis for Labor Laws’ compliance and identify sources of cost reduction for the clients.",
+        "While onboarding new clients, check for past compliance violations and chart the frequency against a benchmark model in the same industry.",
+        "Generate reports and create dashboards based on the findings.",
+      ]
+    },
+    {
+      role: "CEO & Cofounder",
+      company: "ArtStreak",
+      companylogo: require("./assets/images/artstreakLogo.png"),
+      date: "February 2014 – January 2015",
+      desc: "Highlights:",
+      descBullets: [
+        "Formerly known as i-deal: Artstreak",
+      ]
+    }
   ]
 };
 
@@ -248,7 +289,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile :"true", // Set true  or false to show Contact profile using Github, defaults to false
+  showGithubProfile: "true", // Set true  or false to show Contact profile using Github, defaults to false
   display: false
 };
 
@@ -256,20 +297,20 @@ const openSource = {
 // Fin-Finicky Stuff here ----
 
 const bigProjects = {
-    title: emoji("Fin-Finicky: A Financial Analysts' Tookit 🛠️"),
-    subtitle: "Check it out!!:  A one stop shop for Financial Analysts! (Academic Project Built in R / R Shiny)",
+  title: emoji("Fin-Finicky: A Financial Analysts' Tookit 🛠️"),
+  subtitle: "Check it out!!:  A one stop shop for Financial Analysts! (Academic Project Built in R / R Shiny)",
   projects: [
     {
-          image: require("./assets/images/Finfincky.PNG"),
-          projectName: "Saayahealth",
-          projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-          footerLink: [
-            {
-              name: "Visit Website",
-              url: "https://nlohiya.shinyapps.io/Fin-Finicky/"
-            }
-            //  you can add extra buttons here.
-          ]
+      image: require("./assets/images/Finfincky.PNG"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://nlohiya.shinyapps.io/Fin-Finicky/"
+        }
+        //  you can add extra buttons here.
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -282,31 +323,31 @@ const achievementSection = {
   subtitle: "Achievements, Certifications and some other cool stuff that I have done !",
 
   achievementsCards: [
-      
-      {
-          title: "Alteryx Core",
-          subtitle: "Alteryx Designer: Core design certification, March 2020.",
-          image: require("./assets/images/AlteeryxcertificateLogo.png"),
-          footerLink: [
-            {
-              name: "View Certificate",
-              url: "https://community.alteryx.com/t5/user/viewprofilepage/user-id/88164"
-            }
-          ]
-      },
-      {
+
+    {
+      title: "Alteryx Core",
+      subtitle: "Alteryx Designer: Core design certification, March 2020.",
+      image: require("./assets/images/AlteeryxcertificateLogo.png"),
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://community.alteryx.com/t5/user/viewprofilepage/user-id/88164"
+        }
+      ]
+    },
+    {
       title: "CFA Level 2 Candidate",
       subtitle: "Cleared CFA Level 1 Exam, June 2017.",
       image: require("./assets/images/CFALogo.png"),
       footerLink: [
-          { name: "Certification", url: "https://basno.com/es1q5bik" }
+        { name: "Certification", url: "https://basno.com/es1q5bik" }
       ]
     },
 
     {
       title: "USEReady: February Spot Award Winner",
       subtitle: "Won spot award - February 2020 for performance commendation from the clients.",
-        image: require("./assets/images/UsereadyLogo.png"),
+      image: require("./assets/images/UsereadyLogo.png"),
       footerLink: [
         { name: "Certification", url: "" }
       ]
@@ -388,14 +429,15 @@ const contactInfo = {
 // Decommisioned as of 2020-11-29
 const twitterDetails = {
 
-  userName : "twitter", //Replace "twitter" with your twitter username without @
-  display: false 
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 
-export { illustration,
+export {
+  illustration,
   greeting,
   socialMediaLinks,
   splashScreen,
