@@ -1,5 +1,4 @@
-﻿
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
 
@@ -23,20 +22,20 @@ const illustration = {
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Nikhil Lohiya",
-  title: "Hi all, I'm Nikhil",
-  subTitle: emoji("A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."),
+  title: "Hi, I'm Nikhil",
+  subTitle: emoji(
+    "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
+  ),
   resumeLink: "asxc",
   displayGreeting: true
-
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   //  github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/nikilohiya/",
-  gmail: "nikilohiya@gmail.com",
+  gmail: "nikilohiya@gmail.com"
   //  gitlab: "https://gitlab.com/saadpasta",
   //  facebook: "https://www.facebook.com/saad.pasta7",
   //  medium: "https://medium.com/@saadpasta",
@@ -48,7 +47,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do!",
-  subTitle: "Obssesive 'Problem Solver' who is consistently learning new tools to solve them!",
+  subTitle:
+    "Obssesive 'Problem Solver' who is consistently learning new tools to solve them!",
   skills: [
     emoji("⚡ Help Business' succeed with their Data! "),
     emoji("⚡ Develop BI/AI based solutions to Drive better Business Outcomes.")
@@ -74,7 +74,7 @@ const skillsSection = {
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fas fa-cubes"
+      fontAwesomeClassname: "fas fa-anchor"
     },
     {
       skillName: "AWS",
@@ -151,7 +151,7 @@ const skillsSection = {
     {
       skillName: "QuickSight",
       fontAwesomeClassname: "fas fa-chart-bar"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -169,9 +169,8 @@ const educationInfo = {
       desc: "Highlights",
       descBullets: [
         "GPA: 3.89/4",
-        "Treasurer of Business Intelligence Club",
-        "Received scholarship for $10k for standing top 10% in my batch",
-        "Courses taken: Web Mining, Multivariate Analysis, Data Warehousing & BI ...."
+        "Recepient of Provost Masters Scholarship Award 2017.",
+        "Treasurer of Business Intelligence Club 2017-2018"
       ]
     },
     {
@@ -187,7 +186,7 @@ const educationInfo = {
       ]
     }
   ]
-}
+};
 
 // Your top 3 proficient stacks/tech experience
 
@@ -195,8 +194,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "BI Design / KPI Visualizations",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Prompt Engineering", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Gen-AI Application Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "BI Design / KPI Visualizations",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "ETL & Data pipelining ",
+      progressPercentage: "80%"
     },
     {
       Stack: "Databases",
@@ -205,15 +216,10 @@ const techStack = {
     {
       Stack: "Scripting",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "ETL & Data pipelining ",
-      progressPercentage: "80%"
-    },
+    }
   ],
   displayCodersrank: false
 };
-
 
 // Your top 3 work experiences
 
@@ -244,7 +250,7 @@ const workExperiences = {
         "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
         "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
         "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
-        "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos.",
+        "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos."
       ]
     },
     {
@@ -258,29 +264,27 @@ const workExperiences = {
         "Resolved database performance and deadlock issues for 3 clients in the Oracle Revenue Management and Billing batch data processing cycles with 5 million rows (appx)."
       ]
     },
-    {
-      role: "Data Analyst",
-      company: "A S Services",
-      companylogo: require("./assets/images/asservicesLogo.png"),
-      date: "April 2016 – September 2016",
-      desc: "Highlights:",
-      descBullets: [
-        "Create a database and digitize the existing client salary data from ledgers.",
-        "Create monthly reports for the clients to manage the expenditures and create projections for the next month.",
-        "Perform monetary impact analysis for Labor Laws’ compliance and identify sources of cost reduction for the clients.",
-        "While onboarding new clients, check for past compliance violations and chart the frequency against a benchmark model in the same industry.",
-        "Generate reports and create dashboards based on the findings.",
-      ]
-    },
+    // {
+    //   role: "Data Analyst",
+    //   company: "A S Services",
+    //   companylogo: require("./assets/images/asservicesLogo.png"),
+    //   date: "April 2016 – September 2016",
+    //   desc: "Highlights:",
+    //   descBullets: [
+    //     "Create a database and digitize the existing client salary data from ledgers.",
+    //     "Create monthly reports for the clients to manage the expenditures and create projections for the next month.",
+    //     "Perform monetary impact analysis for Labor Laws’ compliance and identify sources of cost reduction for the clients.",
+    //     "While onboarding new clients, check for past compliance violations and chart the frequency against a benchmark model in the same industry.",
+    //     "Generate reports and create dashboards based on the findings."
+    //   ]
+    // },
     {
       role: "CEO & Cofounder",
       company: "ArtStreak",
       companylogo: require("./assets/images/artstreakLogo.png"),
       date: "February 2014 – January 2015",
       desc: "Highlights:",
-      descBullets: [
-        "Formerly known as i-deal: Artstreak",
-      ]
+      descBullets: ["Formerly known as i-deal: Artstreak"]
     }
   ]
 };
@@ -293,12 +297,12 @@ const openSource = {
   display: false
 };
 
-
 // Fin-Finicky Stuff here ----
 
 const bigProjects = {
   title: emoji("Fin-Finicky: A Financial Analysts' Tookit 🛠️"),
-  subtitle: "Check it out!!:  A one stop shop for Financial Analysts! (Academic Project Built in R / R Shiny)",
+  subtitle:
+    "Check it out!!:  A one stop shop for Financial Analysts! (Academic Project Built in R / R Shiny)",
   projects: [
     {
       image: require("./assets/images/Finfincky.PNG"),
@@ -313,17 +317,17 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
-  subtitle: "Achievements, Certifications and some other cool stuff that I have done !",
+  subtitle:
+    "Achievements, Certifications and some other cool stuff that I have done !",
 
   achievementsCards: [
-
     {
       title: "Alteryx Core",
       subtitle: "Alteryx Designer: Core design certification, March 2020.",
@@ -339,20 +343,18 @@ const achievementSection = {
       title: "CFA Level 2 Candidate",
       subtitle: "Cleared CFA Level 1 Exam, June 2017.",
       image: require("./assets/images/CFALogo.png"),
-      footerLink: [
-        { name: "Certification", url: "https://basno.com/es1q5bik" }
-      ]
+      footerLink: [{name: "Certification", url: "https://basno.com/es1q5bik"}]
     },
 
     {
       title: "USEReady: February Spot Award Winner",
-      subtitle: "Won spot award - February 2020 for performance commendation from the clients.",
+      subtitle:
+        "Won spot award - February 2020 for performance commendation from the clients.",
       image: require("./assets/images/UsereadyLogo.png"),
-      footerLink: [
-        { name: "Certification", url: "" }
-      ]
+      footerLink: [{name: "Certification", url: ""}]
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -384,7 +386,9 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
 
   talks: [
     {
@@ -404,9 +408,10 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
 
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ]
 };
-
 
 // Resume Section
 const resumeSection = {
@@ -417,24 +422,22 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 //Contact Information
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "nikilohiya@gmail.com"
 };
 
 //Twitter Section
 // Decommisioned as of 2020-11-29
 const twitterDetails = {
-
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
-
 
 export {
   illustration,
