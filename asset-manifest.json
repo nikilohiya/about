@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/about/static/css/main.9083ac3d.css",
-    "main.js": "/about/static/js/main.da1b5a96.js",
+    "main.js": "/about/static/js/main.e87ada5e.js",
     "static/css/487.bb36206c.chunk.css": "/about/static/css/487.bb36206c.chunk.css",
     "static/js/487.69c16133.chunk.js": "/about/static/js/487.69c16133.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/about/static/css/990.c6a7ee28.chunk.css",
@@ -13,7 +13,6 @@
     "static/media/manOnTable.svg": "/about/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/about/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/about/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/asservicesLogo.png": "/about/static/media/asservicesLogo.24c855e6e8be7ba92998.png",
     "static/media/oracleLogo.png": "/about/static/media/oracleLogo.e542dee2830b65147d32.png",
     "static/media/UsereadyLogo.png": "/about/static/media/UsereadyLogo.f0a6d3414be6029a1835.png",
     "static/media/artstreakLogo.png": "/about/static/media/artstreakLogo.5c62703c851429a54fb4.png",
@@ -24,7 +23,7 @@
     "index.html": "/about/index.html",
     "static/media/talksCardBack.svg": "/about/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9083ac3d.css.map": "/about/static/css/main.9083ac3d.css.map",
-    "main.da1b5a96.js.map": "/about/static/js/main.da1b5a96.js.map",
+    "main.e87ada5e.js.map": "/about/static/js/main.e87ada5e.js.map",
     "487.bb36206c.chunk.css.map": "/about/static/css/487.bb36206c.chunk.css.map",
     "487.69c16133.chunk.js.map": "/about/static/js/487.69c16133.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/about/static/css/990.c6a7ee28.chunk.css.map",
@@ -32,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.9083ac3d.css",
-    "static/js/main.da1b5a96.js"
+    "static/js/main.e87ada5e.js"
   ]
 }
