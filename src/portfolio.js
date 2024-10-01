@@ -23,9 +23,9 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Nikhil Lohiya",
   title: "Hi, I'm Nikhil",
-  subTitle: emoji(
-    "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
+  subTitle: emoji( "I am a versatile Business Intelligence Engineer 🚀🚀 with a deep passion for turning complex data into actionable insights and building cutting-edge AI-driven applications. With extensive experience in designing scalable data models and warehouses, advanced SQL querying, and developing robust ETL pipelines, I ensure seamless data integration and transformation. I excel in creating interactive dashboards with tools like Tableau and Power BI to visualize data and drive informed business decisions. In addition to my BI expertise, I specialize in building Large Language Model (LLM) based chatbots and production-ready AI applications. Leveraging the latest advancements in natural language processing (NLP) and machine learning, I design intelligent chatbots that enhance customer engagement and automate processes. I bring this skill into production environments, developing scalable, cloud-based applications on platforms like AWS, ensuring they are ready for real-world deployment. "
   ),
+    // "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
   resumeLink: "asxc",
   displayGreeting: true
 };
@@ -46,12 +46,17 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What I do!",
+  title: "What I do?",
   subTitle:
     "Obssesive 'Problem Solver' who is consistently learning new tools to solve them!",
   skills: [
-    emoji("⚡ Help Business' succeed with their Data! "),
-    emoji("⚡ Develop BI/AI based solutions to Drive better Business Outcomes.")
+    emoji("⚡ Proficient in designing and implementing LLM-based models to extract actionable business insights from vast datasets. "),
+    emoji("⚡ Skilled in building large language models into conversational chatbots and integrating them on platforms for seamless workflow automation."),
+    emoji("⚡ Experienced in collaborating with cross-functional teams to implement LLM solutions that align with business goals and improve operational efficiency. "),
+    emoji("⚡ Proficient in designing and implementing scalable data lakes on AWS using services like Amazon S3, Glue, and Athena to handle vast datasets. "),
+    emoji("⚡ Skilled in building and managing high-performance data warehouses using Amazon Redshift for complex queries and real-time analytics. "),
+    emoji("⚡ Able to create insightful, interactive dashboards and reports with Amazon QuickSight, transforming complex datasets into actionable intelligence. "),
+    emoji("⚡ In-depth understanding of BI best practices, including data governance, quality assurance, and maintaining scalable data pipelines. ")
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -145,10 +150,6 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-chart-bar"
     },
     {
-      skillName: "Sisense",
-      fontAwesomeClassname: "fas fa-chart-bar"
-    },
-    {
       skillName: "QuickSight",
       fontAwesomeClassname: "fas fa-chart-bar"
     }
@@ -227,6 +228,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Sr. Business Intelligence Engineer",
+      company: "AWS",
+      companylogo: require("./assets/images/aws_logo.png"),
+      date: "March 2021 – Present",
+      desc: "Highlights:",
+      descBullets: [
+        "Section under development",
+        "Section under development",
+        "Section under development."
+      ]
+    },
+    {
       role: "Analytics Associate",
       company: "USEReady",
       companylogo: require("./assets/images/UsereadyLogo.png"),
@@ -240,23 +253,23 @@ const workExperiences = {
         "Created a Python data stream to interact with databases and automating using python schedular to support 2 POCs."
       ]
     },
-    {
-      role: "Graduate Intern",
-      company: "Dept of Finance",
-      companylogo: require("./assets/images/dofLogo.png"),
-      date: "June 2018 – December 2018",
-      desc: "Highlights:",
-      descBullets: [
-        "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
-        "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
-        "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
-        "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos."
-      ]
-    },
+    // {
+    //   role: "Graduate Intern",
+    //   company: "Dept of Finance",
+    //   companylogo: require("./assets/images/dofLogo.png"),
+    //   date: "June 2018 – December 2018",
+    //   desc: "Highlights:",
+    //   descBullets: [
+    //     "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
+    //     "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
+    //     "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
+    //     "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos."
+    //   ]
+    // },
     {
       role: "Associate Applications Developer",
       company: "Oracle Corp",
-      companylogo: require("./assets/images/oracleLogo.png"),
+      companylogo: require("./assets/images/Oracle_logo.png"),
       date: "October 2016 – July 2017",
       desc: "Highlights:",
       descBullets: [
@@ -264,27 +277,29 @@ const workExperiences = {
         "Resolved database performance and deadlock issues for 3 clients in the Oracle Revenue Management and Billing batch data processing cycles with 5 million rows (appx)."
       ]
     },
-    // {
-    //   role: "Data Analyst",
-    //   company: "A S Services",
-    //   companylogo: require("./assets/images/asservicesLogo.png"),
-    //   date: "April 2016 – September 2016",
-    //   desc: "Highlights:",
-    //   descBullets: [
-    //     "Create a database and digitize the existing client salary data from ledgers.",
-    //     "Create monthly reports for the clients to manage the expenditures and create projections for the next month.",
-    //     "Perform monetary impact analysis for Labor Laws’ compliance and identify sources of cost reduction for the clients.",
-    //     "While onboarding new clients, check for past compliance violations and chart the frequency against a benchmark model in the same industry.",
-    //     "Generate reports and create dashboards based on the findings."
-    //   ]
-    // },
+    {
+      role: "Data Analyst",
+      company: "A S Services",
+      companylogo: require("./assets/images/asservicesLogo.png"),
+      date: "April 2016 – September 2016",
+      desc: "Highlights:",
+      descBullets: [
+        "Create a database and digitize the existing client salary data from ledgers.",
+        "Create monthly reports for the clients to manage the expenditures and create projections for the next month.",
+        "Perform monetary impact analysis for Labor Laws’ compliance and identify sources of cost reduction for the clients.",
+        "While onboarding new clients, check for past compliance violations and chart the frequency against a benchmark model in the same industry.",
+        "Generate reports and create dashboards based on the findings."
+      ]
+    },
     {
       role: "CEO & Cofounder",
       company: "ArtStreak",
       companylogo: require("./assets/images/artstreakLogo.png"),
       date: "February 2014 – January 2015",
       desc: "Highlights:",
-      descBullets: ["Formerly known as i-deal: Artstreak"]
+      descBullets: [
+        "Formerly known as i-deal: Artstreak",
+        "Section under development."]
     }
   ]
 };
@@ -329,6 +344,17 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "AWS Certified Cloud Practitioner",
+      subtitle: "Certified AWS Cloud Practitioner - 2024",
+      image: require("./assets/images/aws_ccp.png"),
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://community.alteryx.com/t5/user/viewprofilepage/user-id/88164"
+        }
+      ]
+    },
+    {
       title: "Alteryx Core",
       subtitle: "Alteryx Designer: Core design certification, March 2020.",
       image: require("./assets/images/AlteeryxcertificateLogo.png"),
@@ -349,7 +375,7 @@ const achievementSection = {
     {
       title: "USEReady: February Spot Award Winner",
       subtitle:
-        "Won spot award - February 2020 for performance commendation from the clients.",
+        "Won spot award - February 2020",
       image: require("./assets/images/UsereadyLogo.png"),
       footerLink: [{name: "Certification", url: ""}]
     }
@@ -363,20 +389,26 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With Love for Developing cool stuff, I love to write (or make AI write :D) and teach others what I have learnt.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://nikilohiya.github.io/ai-engineering/Building-Resilient-Langugae-Agents-Langgraph/",
+      title: "LangGraph: Building Resilient Language Agents as Graphs",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A sneak peak into multi agent LLM Architecture."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://nikilohiya.github.io/ai-engineering/Deep-Dive-into-CrewAI/",
+      title: "A Deep Dive into CrewAI",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "The Rise of Multi-Agent Systems: A Deep Dive into CrewAI"
+    },
+    {
+      url: "https://nikilohiya.github.io/AI-Trends-in-2024/",
+      title: "AI Trends in 2024!",
+      description:
+        "2023 saw generative AI (gen AI) explode into the public consciousness, and 2024 marks the year it starts to take root in businesses. "
     }
   ],
   display: true // Set false to hide this section, defaults to true
