@@ -6,7 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import ReactGA from "react-ga4";
 
 // Initialize Google Analytics 4 with your Tracking ID
-ReactGA.initialize('G-VDEELV9CDK'); // Replace with your Google Analytics 4 ID
+ReactGA.initialize('G-JFR0RJT5FK'); // Replace with your Google Analytics 4 ID
 
 // Track initial page load
 ReactGA.send("pageview");
