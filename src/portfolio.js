@@ -393,7 +393,7 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://nikilohiya.github.io/ai-engineering/Building-Resilient-Langugae-Agents-Langgraph/",
+      url: "https://nikilohiya.github.io/ai-engineering/Contextual-Retreival/",
       title: "LangGraph: Building Resilient Language Agents as Graphs",
       description:
         "A sneak peak into multi agent LLM Architecture."
