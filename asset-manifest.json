@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.9083ac3d.css",
-    "main.js": "/about/static/js/main.22953899.js",
+    "main.css": "/about/static/css/main.d22215cc.css",
+    "main.js": "/about/static/js/main.8c6610e5.js",
     "static/css/487.bb36206c.chunk.css": "/about/static/css/487.bb36206c.chunk.css",
     "static/js/487.69c16133.chunk.js": "/about/static/js/487.69c16133.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/about/static/css/990.c6a7ee28.chunk.css",
@@ -24,15 +24,15 @@
     "static/media/Finfincky.PNG": "/about/static/media/Finfincky.3b49051c04c3d39fbd9f.PNG",
     "index.html": "/about/index.html",
     "static/media/talksCardBack.svg": "/about/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.9083ac3d.css.map": "/about/static/css/main.9083ac3d.css.map",
-    "main.22953899.js.map": "/about/static/js/main.22953899.js.map",
+    "main.d22215cc.css.map": "/about/static/css/main.d22215cc.css.map",
+    "main.8c6610e5.js.map": "/about/static/js/main.8c6610e5.js.map",
     "487.bb36206c.chunk.css.map": "/about/static/css/487.bb36206c.chunk.css.map",
     "487.69c16133.chunk.js.map": "/about/static/js/487.69c16133.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/about/static/css/990.c6a7ee28.chunk.css.map",
     "990.93d494cc.chunk.js.map": "/about/static/js/990.93d494cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9083ac3d.css",
-    "static/js/main.22953899.js"
+    "static/css/main.d22215cc.css",
+    "static/js/main.8c6610e5.js"
   ]
 }
