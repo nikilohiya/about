@@ -23,9 +23,10 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Nikhil Lohiya",
   title: "Hi, I'm Nikhil",
-  subTitle: emoji( "I am a versatile Business Intelligence Engineer 🚀🚀 with a deep passion for turning complex data into actionable insights and building cutting-edge AI-driven applications. With extensive experience in designing scalable data models and warehouses, advanced SQL querying, and developing robust ETL pipelines, I ensure seamless data integration and transformation. I excel in creating interactive dashboards with tools like Tableau and Power BI to visualize data and drive informed business decisions. In addition to my BI expertise, I specialize in building Large Language Model (LLM) based chatbots and production-ready AI applications. Leveraging the latest advancements in natural language processing (NLP) and machine learning, I design intelligent chatbots that enhance customer engagement and automate processes. I bring this skill into production environments, developing scalable, cloud-based applications on platforms like AWS, ensuring they are ready for real-world deployment. "
+  subTitle: emoji(
+    "I am a versatile Business Intelligence Engineer 🚀🚀 with a deep passion for turning complex data into actionable insights and building cutting-edge AI-driven applications. With extensive experience in designing scalable data models and warehouses, advanced SQL querying, and developing robust ETL pipelines, I ensure seamless data integration and transformation. I excel in creating interactive dashboards with tools like Tableau and Power BI to visualize data and drive informed business decisions. In addition to my BI expertise, I specialize in building Large Language Model (LLM) based chatbots and production-ready AI applications. Leveraging the latest advancements in natural language processing (NLP) and machine learning, I design intelligent chatbots that enhance customer engagement and automate processes. I bring this skill into production environments, developing scalable, cloud-based applications on platforms like AWS, ensuring they are ready for real-world deployment. "
   ),
-    // "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
+  // "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
   resumeLink: "asxc",
   displayGreeting: true
 };
@@ -50,13 +51,27 @@ const skillsSection = {
   subTitle:
     "Obssesive 'Problem Solver' who is consistently learning new tools to solve them!",
   skills: [
-    emoji("⚡ Proficient in designing and implementing LLM-based models to extract actionable business insights from vast datasets. "),
-    emoji("⚡ Skilled in building large language models into conversational chatbots and integrating them on platforms for seamless workflow automation."),
-    emoji("⚡ Experienced in collaborating with cross-functional teams to implement LLM solutions that align with business goals and improve operational efficiency. "),
-    emoji("⚡ Proficient in designing and implementing scalable data lakes on AWS using services like Amazon S3, Glue, and Athena to handle vast datasets. "),
-    emoji("⚡ Skilled in building and managing high-performance data warehouses using Amazon Redshift for complex queries and real-time analytics. "),
-    emoji("⚡ Able to create insightful, interactive dashboards and reports with Amazon QuickSight, transforming complex datasets into actionable intelligence. "),
-    emoji("⚡ In-depth understanding of BI best practices, including data governance, quality assurance, and maintaining scalable data pipelines. ")
+    emoji(
+      "⚡ Proficient in designing and implementing LLM-based models to extract actionable business insights from vast datasets. "
+    ),
+    emoji(
+      "⚡ Skilled in building large language models into conversational chatbots and integrating them on platforms for seamless workflow automation."
+    ),
+    emoji(
+      "⚡ Experienced in collaborating with cross-functional teams to implement LLM solutions that align with business goals and improve operational efficiency. "
+    ),
+    emoji(
+      "⚡ Proficient in designing and implementing scalable data lakes on AWS using services like Amazon S3, Glue, and Athena to handle vast datasets. "
+    ),
+    emoji(
+      "⚡ Skilled in building and managing high-performance data warehouses using Amazon Redshift for complex queries and real-time analytics. "
+    ),
+    emoji(
+      "⚡ Able to create insightful, interactive dashboards and reports with Amazon QuickSight, transforming complex datasets into actionable intelligence. "
+    ),
+    emoji(
+      "⚡ In-depth understanding of BI best practices, including data governance, quality assurance, and maintaining scalable data pipelines. "
+    )
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -252,7 +267,13 @@ const workExperiences = {
         "Created a “Portfolio Analyzer Dashboard” using Tableau-Python API, with dynamic optimization in Python based on user selected parameters on a Tableau UI.",
         "Created a Python data stream to interact with databases and automating using python schedular to support 2 POCs."
       ]
-    },
+    }
+  ]
+};
+
+const workExperiencesPrevious = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
     // {
     //   role: "Graduate Intern",
     //   company: "Dept of Finance",
@@ -299,7 +320,8 @@ const workExperiences = {
       desc: "Highlights:",
       descBullets: [
         "Formerly known as i-deal: Artstreak",
-        "Section under development."]
+        "Section under development."
+      ]
     }
   ]
 };
@@ -374,8 +396,7 @@ const achievementSection = {
 
     {
       title: "USEReady: February Spot Award Winner",
-      subtitle:
-        "Won spot award - February 2020",
+      subtitle: "Won spot award - February 2020",
       image: require("./assets/images/UsereadyLogo.png"),
       footerLink: [{name: "Certification", url: ""}]
     }
@@ -395,14 +416,12 @@ const blogSection = {
     {
       url: "https://nikilohiya.github.io/ai-engineering/Contextual-Retreival/",
       title: "LangGraph: Building Resilient Language Agents as Graphs",
-      description:
-        "A sneak peak into multi agent LLM Architecture."
+      description: "A sneak peak into multi agent LLM Architecture."
     },
     {
       url: "https://nikilohiya.github.io/ai-engineering/Deep-Dive-into-CrewAI/",
       title: "A Deep Dive into CrewAI",
-      description:
-        "The Rise of Multi-Agent Systems: A Deep Dive into CrewAI"
+      description: "The Rise of Multi-Agent Systems: A Deep Dive into CrewAI"
     },
     {
       url: "https://nikilohiya.github.io/AI-Trends-in-2024/",
@@ -480,6 +499,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  workExperiencesPrevious,
   openSource,
   bigProjects,
   achievementSection,
