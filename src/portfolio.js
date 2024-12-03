@@ -24,10 +24,10 @@ const greeting = {
   username: "Nikhil Lohiya",
   title: "Hi, I'm Nikhil",
   subTitle: emoji(
-    "I am a versatile Business Intelligence Engineer 🚀🚀 with a deep passion for turning complex data into actionable insights and building cutting-edge AI-driven applications. With extensive experience in designing scalable data models and warehouses, advanced SQL querying, and developing robust ETL pipelines, I ensure seamless data integration and transformation. I excel in creating interactive dashboards with tools like Tableau and Power BI to visualize data and drive informed business decisions. In addition to my BI expertise, I specialize in building Large Language Model (LLM) based chatbots and production-ready AI applications. Leveraging the latest advancements in natural language processing (NLP) and machine learning, I design intelligent chatbots that enhance customer engagement and automate processes. I bring this skill into production environments, developing scalable, cloud-based applications on platforms like AWS, ensuring they are ready for real-world deployment. "
+    "Innovative and results-oriented Product Manager with 9 years of professional experience and 2 years of specialized experience in building and scaling Data & Generative AI applications. Expertise in driving the product strategy, development, and deployment of cutting-edge AI-driven solutions that solve complex problems and enhance user experiences. Proven ability to lead cross-functional teams, collaborate with engineering and data science teams, to create AI-powered products that deliver measurable business impact. Adept at navigating the rapidly evolving AI landscape, managing product lifecycles, and aligning AI innovation with customer needs and organizational goals."
   ),
   // "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
-  resumeLink: "asxc",
+  // resumeLink: "",
   displayGreeting: true
 };
 
@@ -49,25 +49,19 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do?",
   subTitle:
-    "Obssesive 'Problem Solver' who is consistently learning new tools to solve them!",
+    emoji("Obssesive 'Problem 🧐 Solver'  who is consistently learning new tools and working with teams to solve them!"),
   skills: [
     emoji(
-      "⚡ Proficient in designing and implementing LLM-based models to extract actionable business insights from vast datasets. "
+      "⚡ Expertise in defining AI product roadmaps, aligning with business objectives, and driving strategic initiatives across cross-functional teams. "
     ),
     emoji(
-      "⚡ Skilled in building large language models into conversational chatbots and integrating them on platforms for seamless workflow automation."
+      "⚡ Experienced in overseeing the end-to-end lifecycle of AI products, from ideation through launch and iteration, ensuring alignment with company goals."
     ),
     emoji(
       "⚡ Experienced in collaborating with cross-functional teams to implement LLM solutions that align with business goals and improve operational efficiency. "
     ),
     emoji(
-      "⚡ Proficient in designing and implementing scalable data lakes on AWS using services like Amazon S3, Glue, and Athena to handle vast datasets. "
-    ),
-    emoji(
-      "⚡ Skilled in building and managing high-performance data warehouses using Amazon Redshift for complex queries and real-time analytics. "
-    ),
-    emoji(
-      "⚡ Able to create insightful, interactive dashboards and reports with Amazon QuickSight, transforming complex datasets into actionable intelligence. "
+      "⚡  Adept at managing AI product backlogs, prioritizing features, and translating complex technical requirements into clear, actionable plans. "
     ),
     emoji(
       "⚡ In-depth understanding of BI best practices, including data governance, quality assurance, and maintaining scalable data pipelines. "
@@ -184,7 +178,6 @@ const educationInfo = {
       duration: "September 2017 - December 2018",
       desc: "Highlights",
       descBullets: [
-        "GPA: 3.89/4",
         "Recepient of Provost Masters Scholarship Award 2017.",
         "Treasurer of Business Intelligence Club 2017-2018"
       ]
@@ -196,7 +189,6 @@ const educationInfo = {
       duration: "July 2012 - April 2016",
       desc: "Highlights",
       descBullets: [
-        "GPA: 3.62/4",
         "Mentored over 700 Students as 'Chief Mentor' in Student Mentorship Program(2015-16)",
         "Founder & 1st Chairman of Electrical Engineering Society, MNIT Jaipur(2015-16)"
       ]
@@ -210,28 +202,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Prompt Engineering", //Insert stack or technology you have experience in
+      Stack: "Strategic Thinking & Vision", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Product Lifecycle Management",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Customer Focus",
+      progressPercentage: "100%"
     },
     {
       Stack: "Gen-AI Application Design", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "BI Design / KPI Visualizations",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "ETL & Data pipelining ",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Databases",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Scripting",
-      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false
@@ -249,9 +233,15 @@ const workExperiences = {
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Section under development",
-        "Section under development",
-        "Section under development."
+        "Led development of a multi-Agent platform on Native AWS, managing a team of 5 engineers to implement 4 RAG models and tool invocation, resulting in a chatbot serving 4000+ customers with projected monthly savings of 13,000 work hours. (Multi-Agent Orchestration, LLMs, AWS Bedrock)", 
+        "Spearheaded the development and implementation of a 3-year content management strategy for the chatbot. This resulted in a 40% reduction in stale data feedback and a top-down leadership alignment on internal tool of choice.", 
+        "Established a robust LLOps pipeline for continuous model improvement and integration testing resulting in 99.99% availability of the application and an automated knowledge base expansion based on positive user feedback.", 
+        "Led the successful integration of 2 acquired chatbot products into the existing suite and 100% data migration within 3 months.", 
+        "Led development of AWS Partner Org P&L, delivering partner-level cost and profitability insights to Finance Leadership, there by facilitating strategic decisions and annual planning. Created a 3-year plan for P&L integration with rest of AWS Organizations and central Finance teams.", 
+        "Spearheaded design of the reporting schema infrastructure including consolidation of Data Sources on Data Lakes, ETLs migration, Governance and Data Quality on Datawarehouse as a Service. The resulted in an increase in availability of data tables from 80% to 99.99% and data quality issues by 70%.", 
+        "Established standardized guidelines for an Org of 100 engineers on schema design and asset nomenclature. This resulted in reduced creation of over 90 new assets with a 30% MoM decrease in support tickets.", 
+        "Designed & built 9 standardized data assets supporting over 400 reporting resources (Data Tables & Dashboards) with over 400k query annual references, supporting 8 AWS Organizations.", 
+        "Architected and implemented a comprehensive Data Certifications Program, elevating ETL design standards and dashboard UI consistency across the organization. This initiative resulted in a 60% reduction in redundant data assets, a 35% improvement in dashboard usability CSAT scores, and a 25% increase in cross-team data utilization."
       ]
     },
     {
@@ -274,19 +264,19 @@ const workExperiences = {
 const workExperiencesPrevious = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Graduate Intern",
-    //   company: "Dept of Finance",
-    //   companylogo: require("./assets/images/dofLogo.png"),
-    //   date: "June 2018 – December 2018",
-    //   desc: "Highlights:",
-    //   descBullets: [
-    //     "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
-    //     "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
-    //     "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
-    //     "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos."
-    //   ]
-    // },
+    {
+      role: "Graduate Intern",
+      company: "Dept of Finance",
+      companylogo: require("./assets/images/dofLogo.png"),
+      date: "June 2018 – December 2018",
+      desc: "Highlights:",
+      descBullets: [
+        "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
+        "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
+        "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
+        "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos."
+      ]
+    },
     {
       role: "Associate Applications Developer",
       company: "Oracle Corp",
@@ -313,6 +303,18 @@ const workExperiencesPrevious = {
       ]
     },
     {
+      role: "Financial Data Analyst",
+      company: "Galaxy Realmart Private Limited",
+      // companylogo: require("./assets/images/asservicesLogo.png"),
+      date: "Feb. 2015 — Sep. 2016",
+      desc: "Highlights:",
+      descBullets: [
+        "Prepared Capital Budgeting (NPV, DCF, NAV, IRR, and NOI), Forecasting and Risk Analysis of VaR, ES, Risk Return Metrics on 9 projects while improving profitability by INR 400,000.",
+        "Established Excel and R models to evaluate real estate properties based on cost, income & comparison approach with accuracy of 75% (Average).",
+        "Conducted detailed market research and property valuations using market comparables, income, and cost approaches, leading to a 20% increase in acquisition returns."
+      ]
+    },
+    {
       role: "CEO & Cofounder",
       company: "ArtStreak",
       companylogo: require("./assets/images/artstreakLogo.png"),
@@ -320,7 +322,10 @@ const workExperiencesPrevious = {
       desc: "Highlights:",
       descBullets: [
         "Formerly known as i-deal: Artstreak",
-        "Section under development."
+        "Co-founded and led the development of a non-profit startup focused on creating an evangelist-assisted crowdfunding platform for artists, aligning product vision with business objectives.",
+        "Led user research and data-driven insights to iterate on platform features, improving user engagement and establishing baseline on crowdfunding success rates for artists.",
+        "Managed product lifecycle, from concept to launch, ensuring timely and efficient execution of product features and platform enhancements.",
+        "Led product initiatives that fostered a strong sense of community among artists and backers, building long-term loyalty and increasing retention rates."
       ]
     }
   ]
@@ -408,9 +413,9 @@ const achievementSection = {
 // Decommisioned as of 2020-11-29
 
 const blogSection = {
-  title: "Blogs",
+  title: emoji ("Blogs ✍️"),
   subtitle:
-    "With Love for Developing cool stuff, I love to write (or make AI write :D) and teach others what I have learnt.",
+    emoji ("With Love for Developing cool stuff, I love to write (or make AI write 😬) and teach others what I have learnt."),
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -475,9 +480,9 @@ const resumeSection = {
 
 //Contact Information
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 📨"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    emoji("Discuss a project or just want to say hi? My Inbox is open for all. 👋"),
   email_address: "nikilohiya@gmail.com"
 };
 
