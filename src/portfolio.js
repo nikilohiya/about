@@ -234,7 +234,7 @@ const workExperiences = {
       desc: "Highlights:",
       descBullets: [
         "Led development of a multi-Agent platform on Native AWS, managing a team of 5 engineers to implement 4 RAG models and tool invocation, resulting in a chatbot serving 4000+ customers with projected monthly savings of 13,000 work hours. (Multi-Agent Orchestration, LLMs, AWS Bedrock)", 
-        "Spearheaded the development and implementation of a 3-year content management strategy for the chatbot. This resulted in a 40% reduction in stale data feedback and a top-down leadership alignment on internal tool of choice.", 
+        "Spearheaded the creation and execution of a comprehensive 3-year content management strategy for the chatbot, achieving alignment across leadership on unstructured data handling & storage while reducing stale feedback by 40%.", 
         "Established a robust LLOps pipeline for continuous model improvement and integration testing resulting in 99.99% availability of the application and an automated knowledge base expansion based on positive user feedback.", 
         "Led the successful integration of 2 acquired chatbot products into the existing suite and 100% data migration within 3 months.", 
         "Led development of AWS Partner Org P&L, delivering partner-level cost and profitability insights to Finance Leadership, there by facilitating strategic decisions and annual planning. Created a 3-year plan for P&L integration with rest of AWS Organizations and central Finance teams.", 
@@ -252,7 +252,7 @@ const workExperiences = {
       desc: "Highlights:",
       descBullets: [
         "Gathered detailed requirements, defined KPIs, developed and implemented solutions for over 12 projects in an Agile setup for 3 clients.",
-        "Created and automated over 30 ETL Process’ & 20 Dashboards using Bigquery/Redshift/Oracle/Tableau, Python/Alteryx and reported in Tableau / Power BI supporting 4 multimillion-dollar product launches.",
+        "Built and automated over 30 ETL Process’ & 20 Dashboards using Bigquery/Redshift/Oracle/Tableau, Python/Alteryx and reported in Tableau / Power BI supporting 4 multimillion-dollar product launches.",
         "Created 2 Tableau Dashboards ingesting more than 50 million rows, and optimized performance from 90 seconds to under 5 seconds for 4000 concurrent users.(Tabjolt / Tabmon)",
         "Created a “Portfolio Analyzer Dashboard” using Tableau-Python API, with dynamic optimization in Python based on user selected parameters on a Tableau UI.",
         "Created a Python data stream to interact with databases and automating using python schedular to support 2 POCs."
