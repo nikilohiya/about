@@ -25,7 +25,7 @@ const greeting = {
   title: "Hi, I'm Nikhil",
   subTitle: emoji(
     "A passionate Analytics Engineer 🚀 with 9 years of experience, with expertise in building Generative AI applications and scalable data platforms. Skilled in designing data infrastructure, implementing standards, and leveraging Cloud platforms, Data Lakes, and ETLs to optimize data quality. Proven success in building Gen AI Applications, driving efficiency, reducing costs, and enhancing decision-making through robust analytics solutions and cross-team collaboration. Adept at fostering data utilization and organizational excellence."
-   ),
+  ),
   // "Innovative and results-oriented Business with 9 years of professional experience and 2 years of specialized experience in building and scaling Data & Generative AI applications. Expertise in driving the product strategy, development, and deployment of cutting-edge AI-driven solutions that solve complex problems and enhance user experiences. Proven ability to lead cross-functional teams, collaborate with engineering and data science teams, to create AI-powered products that deliver measurable business impact. Adept at navigating the rapidly evolving AI landscape, managing product lifecycles, and aligning AI innovation with customer needs and organizational goals."
   // "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
   // resumeLink: "",
@@ -49,8 +49,9 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do?",
-  subTitle:
-    emoji("Obssesive 'Problem 🧐 Solver'  who is consistently learning new tools and working with teams to solve them!"),
+  subTitle: emoji(
+    "Obssesive 'Problem 🧐 Solver'  who is consistently learning new tools and working with teams to solve them!"
+  ),
   skills: [
     emoji(
       "⚡ Expertise in defining AI product roadmaps, aligning with business objectives, and driving strategic initiatives across cross-functional teams. "
@@ -234,17 +235,17 @@ const workExperiences = {
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Led development of a multi-Agent platform on Native AWS, managing a team of 5 engineers to implement 4 RAG models and tool invocation, resulting in a chatbot serving 4000+ customers with projected monthly savings of 13,000 work hours. (Multi-Agent Orchestration, LLMs, AWS Bedrock)",  
+        "Led development of a multi-Agent platform on Native AWS, managing a team of 5 engineers to implement 4 RAG models and tool invocation, resulting in a chatbot serving 4000+ customers with projected monthly savings of 13,000 work hours. (Multi-Agent Orchestration, LLMs, AWS Bedrock)",
         "Spearheaded design of the reporting schema infrastructure including consolidation of Data Sources on Data Lakes, ETLs migration, Governance and Data Quality on Datawarehouse as a Service. The resulted in an increase in availability of data tables from 80% to 99.99% and data quality issues by 70%.",
         "Led the development of an insight engine surfacing 20 KPIs on an in-house application platform supporting over 3000 customers daily for operational reporting.",
-        "Established standardized guidelines for an Org of 100 engineers on schema design and asset nomenclature. This resulted in reduced creation of over 90 new assets with a 30% MoM decrease in support tickets.", 
-        "Designed & built 9 standardized data assets supporting over 400 reporting resources (Data Tables & Dashboards) with over 400k query annual references, supporting 8 AWS Organizations.", 
+        "Established standardized guidelines for an Org of 100 engineers on schema design and asset nomenclature. This resulted in reduced creation of over 90 new assets with a 30% MoM decrease in support tickets.",
+        "Designed & built 9 standardized data assets supporting over 400 reporting resources (Data Tables & Dashboards) with over 400k query annual references, supporting 8 AWS Organizations.",
         "Architected and implemented a comprehensive Data Certifications Program, elevating ETL design standards and dashboard UI consistency across the organization. This initiative resulted in a 60% reduction in redundant data assets, a 35% improvement in dashboard usability CSAT scores, and a 25% increase in cross-team data utilization.",
-        "Spearheaded the creation and execution of a comprehensive 3-year content management strategy for the chatbot, achieving alignment across leadership on unstructured data handling & storage while reducing stale feedback by 40%.", 
+        "Spearheaded the creation and execution of a comprehensive 3-year content management strategy for the chatbot, achieving alignment across leadership on unstructured data handling & storage while reducing stale feedback by 40%.",
         "Led development of AWS Partner Org P&L, delivering partner-level cost and profitability insights to Finance Leadership, there by facilitating strategic decisions and annual planning. Created a 3-year plan for P&L integration with rest of AWS Organizations and central Finance teams.",
-        "Established a robust LLOps pipeline for continuous model improvement and integration testing resulting in 99.99% availability of the application and an automated knowledge base expansion based on positive user feedback.", 
-        "Led successful integration of 2 acquired chatbot products into the existing suite and 100% data migration within 3 months.", 
-        ]
+        "Established a robust LLOps pipeline for continuous model improvement and integration testing resulting in 99.99% availability of the application and an automated knowledge base expansion based on positive user feedback.",
+        "Led successful integration of 2 acquired chatbot products into the existing suite and 100% data migration within 3 months."
+      ]
     },
     {
       role: "Analytics Associate",
@@ -415,9 +416,10 @@ const achievementSection = {
 // Decommisioned as of 2020-11-29
 
 const blogSection = {
-  title: emoji ("Blogs ✍️"),
-  subtitle:
-    emoji ("With Love for Developing cool stuff, I love to write (or make AI write 😬) and teach others what I have learnt."),
+  title: emoji("Blogs ✍️"),
+  subtitle: emoji(
+    "With Love for Developing cool stuff, I love to write (or make AI write 😬) and teach others what I have learnt."
+  ),
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -483,8 +485,9 @@ const resumeSection = {
 //Contact Information
 const contactInfo = {
   title: emoji("Contact Me 📨"),
-  subtitle:
-    emoji("Discuss a project or just want to say hi? My Inbox is open for all. 👋"),
+  subtitle: emoji(
+    "Discuss a project or just want to say hi? My Inbox is open for all. 👋"
+  ),
   email_address: "nikilohiya@gmail.com"
 };
 
