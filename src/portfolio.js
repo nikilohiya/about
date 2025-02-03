@@ -48,8 +48,9 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do?",
-  subTitle:
-    emoji("Obssesive 'Problem 🧐 Solver'  who is consistently learning new tools and working with teams to solve them!"),
+  subTitle: emoji(
+    "Obssesive 'Problem 🧐 Solver'  who is consistently learning new tools and working with teams to solve them!"
+  ),
   skills: [
     emoji(
       "⚡ Expertise in defining AI product roadmaps, aligning with business objectives, and driving strategic initiatives across cross-functional teams. "
@@ -389,9 +390,10 @@ const achievementSection = {
 // Decommisioned as of 2020-11-29
 
 const blogSection = {
-  title: emoji ("Blogs ✍️"),
-  subtitle:
-    emoji ("With Love for Developing cool stuff, I love to write (or make AI write 😬) and teach others what I have learnt."),
+  title: emoji("Blogs ✍️"),
+  subtitle: emoji(
+    "With Love for Developing cool stuff, I love to write (or make AI write 😬) and teach others what I have learnt."
+  ),
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -457,8 +459,9 @@ const resumeSection = {
 //Contact Information
 const contactInfo = {
   title: emoji("Contact Me 📨"),
-  subtitle:
-    emoji("Discuss a project or just want to say hi? My Inbox is open for all. 👋"),
+  subtitle: emoji(
+    "Discuss a project or just want to say hi? My Inbox is open for all. 👋"
+  ),
   email_address: "nikilohiya@gmail.com"
 };
 
