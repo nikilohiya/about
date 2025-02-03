@@ -246,7 +246,13 @@ const workExperiences = {
         "Standardized Data Practices Across Organizations: Implemented efficient schema design, improving query performance by 40%. Strengthened data management capabilities.",
         "Robust Data Asset Development: Built and maintained assets that reduced redundant queries by 30%, enhancing system performance and reducing resource utilization."
       ]
-    },
+    }
+  ]
+};
+
+const workExperiencesPrevious = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
     {
       role: "Analytics Associate",
       company: "USEReady",
@@ -259,25 +265,6 @@ const workExperiences = {
         "Created 2 Tableau Dashboards ingesting more than 50 million rows, and optimized performance from 90 seconds to under 5 seconds for 4000 concurrent users.(Tabjolt / Tabmon)",
         "Created a “Portfolio Analyzer Dashboard” using Tableau-Python API, with dynamic optimization in Python based on user selected parameters on a Tableau UI.",
         "Created a Python data stream to interact with databases and automating using python schedular to support 2 POCs."
-      ]
-    }
-  ]
-};
-
-const workExperiencesPrevious = {
-  display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Graduate Intern",
-      company: "Dept of Finance",
-      companylogo: require("./assets/images/dofLogo.png"),
-      date: "June 2018 – December 2018",
-      desc: "Highlights:",
-      descBullets: [
-        "Extracted data from the MySQL database and transformed the corrupted data for cataloging & reporting.",
-        "Using Agile developed a full stack Case Management System using the TimeMatters for a staff of 10 users.",
-        "Designed a Database (STAR) for the OTA and developed rules for maintaining data quality in the CMS, reducing data errors by 50%.",
-        "Automated the existing internal reporting on Excel VBA creating Pivot Tables & Charts, reducing effort by 130 working hours on an annual basis. Developed an automated reporting system using IBM Cognos."
       ]
     },
     {
@@ -303,18 +290,6 @@ const workExperiencesPrevious = {
         "Perform monetary impact analysis for Labor Laws’ compliance and identify sources of cost reduction for the clients.",
         "While onboarding new clients, check for past compliance violations and chart the frequency against a benchmark model in the same industry.",
         "Generate reports and create dashboards based on the findings."
-      ]
-    },
-    {
-      role: "Financial Data Analyst",
-      company: "Galaxy Realmart Private Limited",
-      // companylogo: require("./assets/images/asservicesLogo.png"),
-      date: "Feb. 2015 — Sep. 2016",
-      desc: "Highlights:",
-      descBullets: [
-        "Prepared Capital Budgeting (NPV, DCF, NAV, IRR, and NOI), Forecasting and Risk Analysis of VaR, ES, Risk Return Metrics on 9 projects while improving profitability by INR 400,000.",
-        "Established Excel and R models to evaluate real estate properties based on cost, income & comparison approach with accuracy of 75% (Average).",
-        "Conducted detailed market research and property valuations using market comparables, income, and cost approaches, leading to a 20% increase in acquisition returns."
       ]
     },
     {
