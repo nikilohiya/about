@@ -233,15 +233,18 @@ const workExperiences = {
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Led development of a multi-Agent platform on Native AWS, managing a team of 5 engineers to implement 4 RAG models and tool invocation, resulting in a chatbot serving 4000+ customers with projected monthly savings of 13,000 work hours. (Multi-Agent Orchestration, LLMs, AWS Bedrock)", 
-        "Spearheaded the creation and execution of a comprehensive 3-year content management strategy for the chatbot, achieving alignment across leadership on unstructured data handling & storage while reducing stale feedback by 40%.", 
-        "Established a robust LLOps pipeline for continuous model improvement and integration testing resulting in 99.99% availability of the application and an automated knowledge base expansion based on positive user feedback.", 
-        "Led the successful integration of 2 acquired chatbot products into the existing suite and 100% data migration within 3 months.", 
-        "Led development of AWS Partner Org P&L, delivering partner-level cost and profitability insights to Finance Leadership, there by facilitating strategic decisions and annual planning. Created a 3-year plan for P&L integration with rest of AWS Organizations and central Finance teams.", 
-        "Spearheaded design of the reporting schema infrastructure including consolidation of Data Sources on Data Lakes, ETLs migration, Governance and Data Quality on Datawarehouse as a Service. The resulted in an increase in availability of data tables from 80% to 99.99% and data quality issues by 70%.", 
-        "Established standardized guidelines for an Org of 100 engineers on schema design and asset nomenclature. This resulted in reduced creation of over 90 new assets with a 30% MoM decrease in support tickets.", 
-        "Designed & built 9 standardized data assets supporting over 400 reporting resources (Data Tables & Dashboards) with over 400k query annual references, supporting 8 AWS Organizations.", 
-        "Architected and implemented a comprehensive Data Certifications Program, elevating ETL design standards and dashboard UI consistency across the organization. This initiative resulted in a 60% reduction in redundant data assets, a 35% improvement in dashboard usability CSAT scores, and a 25% increase in cross-team data utilization."
+        "Led Development of a Multi-Agent Platform on Native AWS: Managed a team of 5 engineers to implement 4 RAG models and tool invocation, resulting in a chatbot serving over 4,000 customers. Achieved projected monthly savings of 13,000 work hours, enhancing operational efficiency by 25%.",
+        "Spearheaded Comprehensive Content Management Strategy: Executed a 3-year strategy for the chatbot, aligning leadership on unstructured data handling and storage. Reduced stale feedback by 40%, improving customer satisfaction by 15%.",
+        "Established Robust LLOps Pipeline: Developed continuous model improvement and integration testing pipelines, achieving 99.99% application availability. Automated knowledge base expansion based on positive user feedback, increasing content accuracy by 20%.",
+        "Successful Multi-Cloud AI Observability Solution Integration: Led the deployment across AWS, Azure, and GCP platforms, achieving 98% customer satisfaction. Reduced troubleshooting time by 25%, enhancing customer experience.",
+        "Customer Conversations and PRD Creation: Conducted discussions and documented requirements for AI observability features. Improved feature prioritization by 20%, contributing to a 10% increase in customer retention.",
+        "Data Analysis Frameworks Design: Utilized SQL and Python to create frameworks providing actionable insights, improving decision-making accuracy by 35%.",
+        "Streamlined ETL and Machine Learning Workflows: Optimized processes to reduce operational costs by 18%, enhancing overall business efficiency.",
+        "Engaging Content for Enhanced Product Understanding: Published blog posts, webinars, and release notes, increasing product adoption rates by 25%. Strengthened customer engagement and market presence.",
+        "OKR Definition and Tracking: Set measurable goals that improved key metrics by 20%, demonstrating leadership in strategic planning and execution.",
+        "Reduced Customer Feedback Time: Improved unstructured data handling and observability tools, reducing feedback resolution time by 35%. Enhanced customer support efficiency.",
+        "Standardized Data Practices Across Organizations: Implemented efficient schema design, improving query performance by 40%. Strengthened data management capabilities.",
+        "Robust Data Asset Development: Built and maintained assets that reduced redundant queries by 30%, enhancing system performance and reducing resource utilization."
       ]
     },
     {
