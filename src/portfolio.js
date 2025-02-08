@@ -380,18 +380,18 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://community.alteryx.com/t5/user/viewprofilepage/user-id/88164"
+          url: "https://www.credly.com/badges/778f403d-a7e6-4598-9f4d-25c26a773c86/public_url"
         }
       ]
     },
     {
-      title: "Alteryx Core",
-      subtitle: "Alteryx Designer: Core design certification, March 2020.",
-      image: require("./assets/images/AlteeryxcertificateLogo.png"),
+      title: "AWS Certified AI Practitioner",
+      subtitle: "Early Adopter!",
+      image: require("./assets/images/aws_caip.png"),
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://community.alteryx.com/t5/user/viewprofilepage/user-id/88164"
+          url: "https://www.credly.com/badges/d8db9819-2c95-4928-886d-a1a5c140662e/public_url"
         }
       ]
     },
