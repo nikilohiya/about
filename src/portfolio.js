@@ -232,7 +232,7 @@ const workExperiences = {
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "•	Owned and scaled an AI-powered RAG-based chatbot, reducing operational workload by 13,000+ hours/month and improving efficiency by 25% while leading a cross functional team.",
+        "Owned and scaled an AI-powered RAG-based chatbot, reducing operational workload by 13,000+ hours/month and improving efficiency by 25% while leading a cross functional team.",
         "Led end-to-end product strategy for a 3-year roadmap on unstructured data management, securing leadership buy-in and reducing stale feedback by 40%, boosting customer satisfaction by 15%.",
         "Defined and implemented AI observability features, improving feature prioritization and adoption by 20%, enhancing model transparency.",
         "Drove cross-functional collaboration across engineering, data science, and leadership to ensure seamless AI integration, achieving 99.99% uptime.",
