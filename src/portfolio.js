@@ -226,19 +226,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Sr. Business Intelligence Engineer / Product Lead",
+      role: "Sr. Business Intelligence Engineer (Acting Product Manager)",
       company: "AWS",
       companylogo: require("./assets/images/aws_logo.png"),
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Owned and scaled an AI-powered RAG-based chatbot, reducing operational workload by 13,000+ hours/month and improving efficiency by 25% while leading a cross functional team.",
-        "Led end-to-end product strategy for a 3-year roadmap on unstructured data management, securing leadership buy-in and reducing stale feedback by 40%, boosting customer satisfaction by 15%.",
-        "Defined and implemented AI observability features, improving feature prioritization and adoption by 20%, enhancing model transparency.",
-        "Drove cross-functional collaboration across engineering, data science, and leadership to ensure seamless AI integration, achieving 99.99% uptime.",
-        "Standardized data governance policies, improving data discoverability and reducing redundant asset creation by 30% MoM.",
-        "Optimized ETL and ML workflows, reducing cloud compute costs by 18% and improving analytics efficiency in the organizations.",
-        "Standardized Data Practices Across Organizations by implementing efficient schema design, improving query performance by 40%."
+        "Led cross-functional team to launch a Data Products platform consisting of a RAG-based chatbot, Field document generator & Insights, resulting in annual operational savings of $500 Million and boosting Net Promoter Score (NPS) by 18%.",
+        "Owned & scaled a Generative BI platform consisting of a Multi-agent Orchestration performing SQL Operations, Contextual RAG, Code Validations and machine learning recommendations, reducing Ops workload by 13000 Hours annually and increasing customer self-service adoption by 80%.",
+        "Defined a 3-year roadmap for unstructured data management, securing leadership buy-in and reducing stale feedback by 40%, improving customer satisfaction by 15%, and increasing feature adoption by 22%.",
+        "Led cross-functional collaboration between engineering, data science, and business stakeholders to design and implement AI observability features, improving feature prioritization and deployment by 20%, ensuring precise model explainability, and driving a 30% increase in active user engagement.",
+        "Spearheaded governance standards, improving data discoverability and reducing redundant asset creation by 30% MoM and improving query performance by 30% in an org of 100 engineers.",
+        "Optimized ETL and ML workflows, reducing cloud computing costs by 18%, aligning with cost optimization goals."
       ]
     },
     {
