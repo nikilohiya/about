@@ -24,7 +24,7 @@ const greeting = {
   username: "Nikhil Lohiya",
   title: "Hi, I'm Nikhil",
   subTitle: emoji(
-    "I’m a customer-focused 🚀 Product Leader with 9+ years of experience driving AI-powered and data-intensive product strategies. At AWS, I’ve led cross-functional teams to launch AI/ML-driven platforms, optimizing workflows, reducing operational costs by over $500M, and improving customer engagement. Passionate about Generative AI, data governance, and product growth, I thrive in ambiguity, defining vision, and executing scalable roadmaps."
+    "I am a customer-focused Senior Product Manager 🚀 with 9+ years of experience driving AI-powered and data-intensive product development, specializing in Business Intelligence (BI) and Generative AI. I am passionate about delivering personalized, intelligent insights by integrating AI/ML, data analytics, and cloud technologies to enhance decision-making and user engagement. I have proven expertise in product strategy, roadmap execution, and cross-functional leadership, enabling organizations to scale data-driven experiences. I excel at collaborating with engineering, customers, and stakeholders to build and launch innovative BI & AI solutions from conceptualization to production."
   ),
   // "Innovative and results-oriented Business with 9 years of professional experience and 2 years of specialized experience in building and scaling Data & Generative AI applications. Expertise in driving the product strategy, development, and deployment of cutting-edge AI-driven solutions that solve complex problems and enhance user experiences. Proven ability to lead cross-functional teams, collaborate with engineering and data science teams, to create AI-powered products that deliver measurable business impact. Adept at navigating the rapidly evolving AI landscape, managing product lifecycles, and aligning AI innovation with customer needs and organizational goals."
   // "A passionate Business Intelligence Engineer 🚀 with 8+ years of professional experience in analyzing and developing solutions spanning database development & architecture, management and predictive analytics, forecasting, and developing interactive dashboards to steer data driven problem solving in enterprises. Expertise in handling large data sets, insights generation, output interpretation, BI automation, and advanced visualizations."
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do?",
   subTitle: emoji(
-    "Obssesive 'Problem 🧐 Solver'  who is consistently learning new tools and working with teams to solve them!"
+    "Obssesive 'Problem 🧐 Solver'  who is consistently learning new ways to solve problems for the organizations!"
   ),
   skills: [
     emoji(
@@ -209,8 +209,8 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "ETLs, Analytics and Data Design",
-      progressPercentage: "80%"
+      Stack: "Product Development 0 to 1",
+      progressPercentage: "100%"
     },
     {
       Stack: "Gen-AI Application Design",
@@ -226,18 +226,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Sr. Business Intelligence Engineer (Acting Product Manager)",
+      role: "Sr. Technical Product Manager",
       company: "AWS",
       companylogo: require("./assets/images/aws_logo.png"),
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Led cross-functional team to launch a Data Products platform consisting of a RAG-based chatbot, Field document generator & Insights, resulting in annual operational savings of $500 Million and boosting Net Promoter Score (NPS) by 18%.",
-        "Owned & scaled a Generative BI platform consisting of a Multi-agent Orchestration performing SQL Operations, Contextual RAG, Code Validations and machine learning recommendations, reducing Ops workload by 13000 Hours annually and increasing customer self-service adoption by 80%.",
-        "Defined a 3-year roadmap for unstructured data management, securing leadership buy-in and reducing stale feedback by 40%, improving customer satisfaction by 15%, and increasing feature adoption by 22%.",
-        "Led cross-functional collaboration between engineering, data science, and business stakeholders to design and implement AI observability features, improving feature prioritization and deployment by 20%, ensuring precise model explainability, and driving a 30% increase in active user engagement.",
-        "Spearheaded governance standards, improving data discoverability and reducing redundant asset creation by 30% MoM and improving query performance by 30% in an org of 100 engineers.",
-        "Optimized ETL and ML workflows, reducing cloud computing costs by 18%, aligning with cost optimization goals."
+        "Led end-to-end product development of a Data Products platform (RAG-based chatbot, Field document generator & Insights), achieving $500M in annual operational savings and improving NPS by 18%.",
+        "Owned and scaled a Generative BI platform with a multi-agent orchestration performing SQL Operations, Contextual RAG, Code Validations, and ML recommendations, reducing operational workload by 13,000 hours annually and increasing customer self-service adoption by 80%.",
+        "Defined a 3-year product roadmap for unstructured data management, securing leadership buy-in, reducing stale feedback by 40%, improving customer satisfaction by 15%, and increasing feature adoption by 22%.",
+        "Developed product adoption strategy, incorporating user research and feedback loops to enhance AI observability, resulting in a 30% increase in active user engagement.",
+        "Launched AI observability features to enhance explainability and refined product analytics KPIs, improving feature prioritization and deployment by 20%. (Impacting TTM, MTTR & A/B Testing)",
+        "Spearheaded governance frameworks to improve data discoverability, reducing redundant asset creation by 30% MoM, and enhancing query performance by 30% across 100+ engineers.",
+        "Optimized cloud cost management by refining ETL and ML workflows, reducing compute spend by 18%, aligning with scalability and cost-efficiency goals."
       ]
     },
     {
@@ -426,7 +427,7 @@ const achievementSection = {
     },
     {
       title: "AWS Certified AI Practitioner",
-      subtitle: "Early Adopter!",
+      subtitle: "Early Adopter of AI in AWS - 2024",
       image: require("./assets/images/aws_caip.png"),
       footerLink: [
         {
@@ -436,19 +437,24 @@ const achievementSection = {
       ]
     },
     {
-      title: "CFA Level 2 Candidate",
-      subtitle: "Cleared CFA Level 1 Exam, June 2017.",
-      image: require("./assets/images/CFALogo.png"),
-      footerLink: [{name: "Certification", url: "https://basno.com/es1q5bik"}]
+      title: "AI Ambassador @ AWS",
+      subtitle: "Driving AI adoption in over 1000+ member AWS Organization from the frontlines.",
+      image: require("./assets/images/aws_logo.png"),
+      footerLink: [
+        {
+          name: "Achievement",
+          // url: "https://basno.com/es1q5bik"
+        }
+      ]
     },
 
     {
       title: "Chronos Certified Mentor",
-      subtitle: "Interviewed over 45 candidates & Mentored 10 in AWS.",
+      subtitle: "Interviewed over 50 candidates & mentored 12 in AWS.",
       image: require("./assets/images/Chronos.jpg"),
       footerLink: [
         {
-          name: "Certificate",
+          name: "View Certificate",
           url: "https://certificates.chronus.com/certificates/cf-2a0b5006-40ed-4102-b4ff-66da0e370617-1256432"
         }
       ]
