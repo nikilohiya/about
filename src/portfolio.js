@@ -226,19 +226,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Sr. Technical Product Manager",
+      role: "Sr. BIE & Product Manager",
       company: "AWS",
       companylogo: require("./assets/images/aws_logo.png"),
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Led end-to-end product development of a Data Products platform (RAG-based chatbot, Field document generator & Insights), achieving $500M in annual operational savings and improving NPS by 18%.",
-        "Owned and scaled a Generative BI platform with a multi-agent orchestration performing SQL Operations, Contextual RAG, Code Validations, and ML recommendations, reducing operational workload by 13,000 hours annually and increasing customer self-service adoption by 80%.",
-        "Defined a 3-year product roadmap for unstructured data management, securing leadership buy-in, reducing stale feedback by 40%, improving customer satisfaction by 15%, and increasing feature adoption by 22%.",
-        "Developed product adoption strategy, incorporating user research and feedback loops to enhance AI observability, resulting in a 30% increase in active user engagement.",
+        "Led end-to-end product development of a Data Products platform (RAG-based chatbot, Field document generator & Insights) with projected $500M in annual operational savings.",
+        "Architected and developed a Gen AI Application that creates comprehensive research documents and generates innovative ideas using internal AWS Services.",
+        "Owned and scaled a Generative BI platform with a multi-agent orchestration performing SQL Operations, Contextual RAG, Code Validations, and ML recommendations, reducing operational workload by 10,000 hours annually and increasing customer self-service adoption by 80%.",
+        "Defined a 3-year product roadmap for unstructured data management, securing leadership buy-in, reducing stale feedback by 40%, improving customer satisfaction by 15%.",
+        "Developed product feedback loops for the chatbot to enhance AI observability, resulting in a 30% increase in consistency of the chatbot responses.",
         "Launched AI observability features to enhance explainability and refined product analytics KPIs, improving feature prioritization and deployment by 20%. (Impacting TTM, MTTR & A/B Testing)",
-        "Spearheaded governance frameworks to improve data discoverability, reducing redundant asset creation by 30% MoM, and enhancing query performance by 30% across 100+ engineers.",
-        "Optimized cloud cost management by refining ETL and ML workflows, reducing compute spend by 18%, aligning with scalability and cost-efficiency goals."
+        "Designed and implemented enterprise-wide suite of Partner standardized tables serving over 12k users with over 200k query references annually; reducing Time to Resolution for upstream updates by 85% while improving data quality and reporting accuracy.",
+        "Spearheaded Data Governance frameworks to improve data discoverability, reducing redundant asset creation by 30% MoM, and enhancing query performance by 30% across 100+ engineers.",
+        "Optimized cloud cost management by refining ETL and ML workflows, reducing computing spend by 18%, aligning with scalability and cost-efficiency LT goals.",
+        "Architected AWS Customer Engagements Dashboard serving global partner operations; engineered scalable KPIs that saved 500+ hours annually in manual calculations while providing deep-dive insights for executive decision-making."
       ]
     },
     {
@@ -248,12 +251,12 @@ const workExperiences = {
       date: "February 2019 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Launched data-driven insights products supporting 4 multibillion-dollar MNCs by automating 50+ ETL processes leveraging BigQuery, Redshift, and Oracle.",
-        "Designed and implemented KPIs for 25+ dashboards supporting Product, Finance, and Operations teams, improving data-driven decision-making.",
-        "Optimized large-scale analytics dashboards ingesting 50M+ rows, reducing query response time from 90s to under 5s for 4,000+ users.",
-        "Led end-to-end automation of financial and operational reports, decreasing report generation time from 6 hours to 30 minutes.",
-        "Collaborated with engineering teams to design scalable data pipelines, reducing ETL failures by 25% and improving overall system reliability.",
-        "Implemented predictive analytics models, enabling real-time business insights, leading to 15% better forecasting accuracy for financial teams."
+        "Drove launch of data insights products for 4 multibillion-dollar MNCs, aligning business needs with technical execution; automated 50+ ETL workflows using BigQuery, Redshift, and Oracle.",
+        "Defined KPI frameworks across 25+ dashboards for Product, Finance, and Operations, enhancing strategic decision-making and performance visibility.",
+        "Improved user experience for analytics dashboards, reducing query latency from 90s to <5s for 4,000+ users; prioritized performance as a key product differentiator.",
+        "Led automation of reporting workflows, cutting report generation time from 6 hours to 30 minutes, increasing operational efficiency across finance and ops.",
+        "Partnered with engineering to build scalable data infrastructure, decreasing ETL failure rates by 25% and improving data reliability for business-critical systems.",
+        "Enabled real-time financial forecasting by integrating predictive analytics models, resulting in a 15% improvement in forecast accuracy for strategic planning."
       ]
     }
   ]
