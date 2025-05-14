@@ -50,7 +50,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do?",
   subTitle: emoji(
-    "Obssesive 'Problem 🧐 Solver'  who is consistently learning new ways to solve problems for the organizations!"
+    "Obssesive 'Problem Solver' 🧐 who is consistently learning new ways to solve problems for the organizations!"
   ),
   skills: [
     emoji(
