@@ -226,7 +226,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Sr. BIE & Product Manager",
+      role: "Sr. Product Manager",
       company: "AWS",
       companylogo: require("./assets/images/aws_logo.png"),
       date: "March 2021 – Present",
