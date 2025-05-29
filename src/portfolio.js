@@ -232,17 +232,16 @@ const workExperiences = {
       date: "March 2021 – Present",
       desc: "Highlights:",
       descBullets: [
-        "Led end-to-end product development of a Data Products platform (RAG-based chatbot, Field document generator & Insights) with projected $500M in annual operational savings.",
-        "Architected and developed a Gen AI Application that creates comprehensive research documents and generates innovative ideas using internal AWS Services.",
-        "Owned and scaled a Generative BI platform with a multi-agent orchestration performing SQL Operations, Contextual RAG, Code Validations, and ML recommendations, reducing operational workload by 10,000 hours annually and increasing customer self-service adoption by 80%.",
-        "Defined a 3-year product roadmap for unstructured data management, securing leadership buy-in, reducing stale feedback by 40%, improving customer satisfaction by 15%.",
-        "Developed product feedback loops for the chatbot to enhance AI observability, resulting in a 30% increase in consistency of the chatbot responses.",
-        "Launched AI observability features to enhance explainability and refined product analytics KPIs, improving feature prioritization and deployment by 20%. (Impacting TTM, MTTR & A/B Testing)",
-        "Designed and implemented enterprise-wide suite of Partner standardized tables serving over 12k users with over 200k query references annually; reducing Time to Resolution for upstream updates by 85% while improving data quality and reporting accuracy.",
-        "Spearheaded Data Governance frameworks to improve data discoverability, reducing redundant asset creation by 30% MoM, and enhancing query performance by 30% across 100+ engineers.",
-        "Optimized cloud cost management by refining ETL and ML workflows, reducing computing spend by 18%, aligning with scalability and cost-efficiency LT goals.",
-        "Architected AWS Customer Engagements Dashboard serving global partner operations; engineered scalable KPIs that saved 500+ hours annually in manual calculations while providing deep-dive insights for executive decision-making."
-      ]
+        "Led end-to-end development of a multi-functional Data Products platform (RAG chatbot, document generator, insight engine), driving $500M in projected annual savings by reducing manual effort and improved efficiency.",
+        "Built and launched an internal Generative AI assistant using AWS-native services to generate research documents and idea summaries, cutting time-to-draft by 70% and scaling knowledge reuse.",
+        "Owned and scaled a multi-agent Generative BI platform for SQL ops, contextual retrieval, and ML recommendations, reducing analyst workload by 10,000+ hours and boosting self-service adoption by 80%.",
+        "Defined and delivered a 3-year roadmap for unstructured data for Knowledge Bases, aligning org-wide goals, cutting stale feedback by 40%, and improving CSAT by 15% through enhanced data reusability.",
+        "Designed product feedback loops for LLM-based chatbot, improving response consistency by 30%, while enabling better tuning and governance.",
+        "Standardized partner metrics with enterprise-wide data tables, used by 12K+ users and referenced in 200K+ queries/year—reducing data resolution time by 85% and boosting reporting trust.",
+        "Established data governance frameworks, cutting redundant asset creation by 30% MoM and improving query performance by 30% for 100+ engineers.",
+        "Optimized ML and ETL pipelines, reducing cloud compute costs by 18% and aligning infrastructure use with scalability and cost-efficiency goals.",
+        "Architected a global Partner Engagement Dashboard, enabling real-time insights and saving 500+ hours/year in manual reporting, while improving exec-level decision-making.",
+]
     },
     {
       role: "Analytics Associate",
